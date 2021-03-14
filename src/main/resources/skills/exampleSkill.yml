@@ -1,0 +1,35 @@
+display-name: 'ExampleSkill'
+max-level: 3
+cooldowns:
+  -1: 3.5
+  0: 0.0
+  1: 2.0
+  2: 3.0
+  3: 3.5
+attribute-multiplier: 1.5
+whitelisted-groups:
+  - 'default'
+  - 'allowed_group_that_can_do_this_skill'
+blacklisted-groups:
+  - 'group_that_cannot_do_this_skill'
+abilities:
+  -1:
+    heal:
+      target: 'self'
+      amount: 1.5
+  0:
+    heal:
+      target: 'self'
+      amount: 0
+  1:
+    heal:
+      target: 'self'
+      amount: 2.0
+  2:
+    heal:
+      target: 'self'
+      amount: 3.0
+  3:
+    heal:
+      target: 'self'
+      amount: 5.0

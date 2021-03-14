@@ -1,0 +1,5 @@
+name: OrionSkill
+main: io.github.tivecs.orionskill.OrionSkill
+version: 1.0
+description: Applies skill to minecraft world
+api-version: 1.13
